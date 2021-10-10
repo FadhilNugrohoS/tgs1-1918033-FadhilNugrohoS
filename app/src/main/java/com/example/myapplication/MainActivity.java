@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
         Intent a = new Intent(MainActivity.this,Biodata.class);
         startActivity(a);
     }
+    public void lUAS(View view){
+        Intent b = new Intent(MainActivity.this,Luas.class);
+        startActivity(b);
+    }
 }
